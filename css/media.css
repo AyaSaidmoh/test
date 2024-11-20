@@ -1,0 +1,73 @@
+/* sm */
+@media screen and (min-width:640px) {
+    .content h1{
+        font-size:62px;
+        font-weight: 600;
+      }
+      .content p{
+        font-size: 28px;
+        margin-top: 10px;
+      }
+      .about-section.container{
+        width: 30%; padding: 20px; margin-right: 10px;
+      }.skills{
+        width: 50%;
+    }
+}
+
+/* md */
+@media screen and (min-width:768px) {
+    .content h1{
+        font-size:62px;
+        font-weight: 600;
+      }
+      .content p{
+        font-size: 30px;
+        margin-top: 10px;
+      }
+      .about-section.container{
+        width: 40%; padding: 25px; margin-right: 10px;
+      }.skills{
+        width: 60%;
+      }
+}
+
+/* lg */
+@media screen and (min-width:1024px) {
+    .content h1{
+        font-size:68px;
+        font-weight: 650;
+      }
+      .content p{
+        font-size: 32px;
+        margin-top: 10px;
+      }
+      .about-section.container{
+        width: 70%; padding: 30px; margin-right: 20px;
+      }
+      .skills{
+        width: 70%;
+    
+}}
+
+/* xl */
+@media screen and (min-width:1280px) {
+    .content h1{
+        font-size:70px;
+        font-weight: 700;
+      }
+      .content p{
+        font-size: 36px;
+        margin-top: 10px;
+      }
+      .about-section.container{
+        width: 100%; padding: 35px;
+        margin-right: 20px;
+      }
+      .skills{
+        width: 80%;
+     
+}}
+
+/* 2xl */
+@media screen and (min-width:1536px) {}
